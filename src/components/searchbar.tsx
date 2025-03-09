@@ -8,12 +8,6 @@ export const Searchbar = () => {
     >
       <IoSearch className="text-xl" />
       <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
-      <input className="outline-none w-full text-xl "></input>
     </div>
   );
 };
