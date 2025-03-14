@@ -1,4 +1,6 @@
 import { Searchbar } from "./components/searchbar";
+import { Card } from "./components/card";
+
 function App() {
   return (
     <div className="flex w-full justify-center ">
@@ -10,6 +12,10 @@ function App() {
           Vim Glossary
         </h1>
         <Searchbar />
+        <div className="flex flex-row w-full gap-4">
+          <Card commandName="Paste">p</Card>
+          <Card commandName="Delete">d</Card>
+        </div>
       </div>
     </div>
   );
